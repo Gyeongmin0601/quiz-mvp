@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
@@ -16,5 +16,14 @@
     "firebase-admin": "^13.1.0",
     "react": "^19.0.0",
     "tailwindcss": "^4.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyeongmin0601/quiz-mvp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gyeongmin0601/quiz-mvp/issues"
+  },
+  "homepage": "https://github.com/Gyeongmin0601/quiz-mvp#readme",
+  "description": ""
 }
